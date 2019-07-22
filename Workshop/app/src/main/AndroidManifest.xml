@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.gautam.workshop">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/logo1"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".activity.Developer.DeleteAllWorkshops"
+                  android:label="Developer Mode">
+        </activity>
+        <activity
+                android:name=".activity.Developer.DeveloperOption"
+                android:label="Developer Mode">
+        </activity>
+        <activity
+                android:name=".activity.MainActivity"
+                android:label="Main Screen">
+        </activity>
+        <activity
+                android:name=".activity.SplashActivity"
+                android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activity.myProfile.LoginSignup"
+                android:label="Login">
+        </activity>
+        <activity
+                android:name=".activity.AboutUs"
+                android:label="About Us">
+        </activity>
+        <activity
+                android:name=".activity.WorkshopsButton"
+                android:label="Workshops">
+        </activity>
+        <activity
+                android:name=".activity.myProfile.SignupTextView"
+                android:label="Signup">
+        </activity>
+        <activity
+                android:name=".activity.myProfile.My_Profile"
+                android:label="My Profile">
+        </activity>
+    </application>
+
+</manifest>

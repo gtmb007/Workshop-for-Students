@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="13dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Are you sure you want to delete all workshops?"
+              android:textSize="18dp"
+              android:textColor="#000000"
+              android:id="@+id/sure"/>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sure">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/yes"
+                android:textSize="18sp"
+                android:textColor="#0975F7"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No "
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/yes"
+                android:layout_marginLeft="100dp"
+                android:textColor="#0975F7"
+                android:id="@+id/no"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+</RelativeLayout>

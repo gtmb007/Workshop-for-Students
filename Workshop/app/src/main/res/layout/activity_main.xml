@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="13dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/workshopsButton"
+            android:textColor="#ffffff"
+            android:text="Workshops"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/myProfile"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/workshopsButton"
+            android:text="My Profile"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aboutUsButton"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/myProfile"
+            android:text="About Us"/>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/goDeveloper"
+            android:layout_below="@+id/aboutUsButton">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="18dp"
+                  android:text="Go to - "
+                  android:textColor="#000000"
+                  android:id="@+id/go_to"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="18dp"
+                  android:text="Developer Mode"
+                  android:textColor="#0975F7"
+                  android:layout_marginLeft="5dp"
+                  android:layout_toRightOf="@+id/go_to"
+                  android:id="@+id/developerOption"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
